@@ -273,9 +273,9 @@ class signUp extends StatelessWidget {
                     const SizedBox(height: 20),
                     GestureDetector(
                       onTap: () {
-                        Navigator.push(
+                        Navigator.pop(
                           context,
-                          MaterialPageRoute(builder: (context) => signIn()),
+                          // MaterialPageRoute(builder: (context) => signIn()),
                         );
                       },
                       child: const Align(
